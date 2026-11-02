@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>BenScr.Bitsets</id><version>1.0.0</version><authors>Ben Schneider</authors>
+    <description>C++20 owning dynamic bitsets with bounded storage, set operations, safe shifts, rank/select and canonical portable byte serialization.</description>
+    <projectUrl>https://github.com/Ben-Scr/BenScr.Bitsets</projectUrl>
+    <repository type="git" url="https://github.com/Ben-Scr/BenScr.Bitsets" commit="$commit$" />
+    <license type="file">LICENSE.txt</license><readme>README.md</readme><icon>icon.png</icon>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance><tags>native bitsets collections rank select cpp20</tags>
+  </metadata>
+  <files>
+    <file src="include\benscr\bitsets\bitsets.hpp" target="include\benscr\bitsets" />
+    <file src="package\BenScr.Bitsets.props" target="build\native" />
+    <file src="package\BenScr.Bitsets.targets" target="build\native" />
+    <file src="LICENSE.txt" target="" /><file src="README.md" target="" />
+    <file src="branding\BenScr_Icon_Master.png" target="icon.png" />
+  </files>
+</package>
