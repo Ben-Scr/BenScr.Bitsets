@@ -219,7 +219,7 @@ void CopyMoveAndSwap()
     assigned = source;
     assigned.Flip(0);
     Check(source.Test(0) && !assigned.Test(0), "Copy assignment independence");
-    const auto& sameAssigned = assigned;
+    const auto &sameAssigned = assigned;
     assigned = sameAssigned;
     Check(!assigned.Test(0), "Self-copy");
     Bits moved(std::move(source));
